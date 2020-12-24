@@ -25,12 +25,17 @@ body {
   opacity: 0.7;
 }
 
-#login-form {
+.login-form {
   display: flex;
   flex-direction: column;
   margin: 0px 30px;
 }
 
+.login-form__input {
+  border: none;
+}
+
+/* 
 #login-form input {
   border: none;
   font-size: 18px;
@@ -63,4 +68,4 @@ body {
   text-decoration: none;
   color: inherit;
   font-size: 13px;
-}
+} */
