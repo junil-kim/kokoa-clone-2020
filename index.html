@@ -18,7 +18,6 @@
       <div class="status-bar__column">
         <span>11%</span>
         <i class="fas fa-battery-full fa-lg"></i>
-        <i class="fas fa-bolt"></i>
       </div>
     </div>
 
@@ -28,9 +27,14 @@
         If you have a Kokoa Account, log in with your email or phone number.
       </p>
     </header>
-    <form id="login-form">
-      <input type="text" placeholder="Email or phone number" />
-      <input type="password" placeholder="Password" />
+    <form action="friends.html" method="GET" id="login-form">
+      <input
+        name="username"
+        required
+        type="text"
+        placeholder="Email or phone number"
+      />
+      <input name="password" required type="password" placeholder="Password" />
       <input type="submit" value="Log In" />
       <input type="submit" value="Sign Up" />
       <a href="#">Find Kokoa Account or password</a>
