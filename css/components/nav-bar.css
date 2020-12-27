@@ -32,3 +32,13 @@
   left: 15px;
   bottom: 15px;
 }
+
+.nav__ellipsisTopCircle {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  position: absolute;
+  left: 20px;
+  top: -5px;
+}
